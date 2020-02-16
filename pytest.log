@@ -1,1 +1,15 @@
-
+2020-02-16 17:13:01,195 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-16 17:13:01,491 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-16 17:13:01,786 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-16 17:13:02,351 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 49 - FAILED
+2020-02-16 17:13:02,351 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 50 - No available movies
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 45, in test_user_can_get_available_movies
+    raise AssertionError('No available movies')
+AssertionError: No available movies
+2020-02-16 17:13:33,478 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-16 17:13:33,780 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-16 17:13:34,093 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-16 17:13:34,653 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-16 17:13:34,946 - INFO - test_get_api_movies.py - test_movie_currently_available - 68 - PASSED
+2020-02-16 17:13:35,231 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 90 - PASSED

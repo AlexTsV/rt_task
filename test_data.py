@@ -39,8 +39,8 @@ class Service:
 
         return response
 
-    def delete(self, service_id):
-        url = f'{self.url}/{service_id}'
+    def delete(self):
+        url = f'{self.url}'
         response = requests.delete(headers=self.headers, url=url)
 
         return response
@@ -58,8 +58,8 @@ class Movie:
 
         return response
 
-    def delete(self, movie_id):
-        url = f'{self.url}/{movie_id}'
+    def delete(self):
+        url = f'{self.url}'
         response = requests.delete(headers=self.headers, url=url)
 
         return response

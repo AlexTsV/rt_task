@@ -21,6 +21,7 @@ def test_user_can_get_token_for_device(device):
         raise AssertionError(message)
     try:
         assert response.json()['token'] is not None
+        log.info('PASSED')
     except AssertionError:
         message = f'No token for {device}'
         log.info('FAILED')
@@ -41,6 +42,7 @@ def test_user_can_get_available_movies(tokens):
         try:
             if len(result.json()['items']) == 0:
                 raise AssertionError('No available movies')
+            log.info('PASSED')
         except AssertionError:
             message = 'No available movies'
             log.info('FAILED')
@@ -62,6 +64,7 @@ def test_movie_currently_available(tokens):
         for movie in result.json()['items']:
             try:
                 assert movie['start_date'] <= time.time() <= movie['end_date']
+                log.info('PASSED')
             except AssertionError:
                 message = f"{movie['name']} should not be available"
                 log.info('FAiLED')
@@ -83,6 +86,7 @@ def test_is_movie_included_in_the_services(tokens):
         for movie in result.json()['items']:
             try:
                 assert len(movie['services']) >= 1
+                log.info('PASSED')
             except AssertionError:
                 message = f"The {movie['name']} is not included in any service"
                 log.info('FAILED')
