@@ -39,9 +39,14 @@ class Service:
 
         return response
 
-    def delete(self):
-        url = f'{self.url}'
-        response = requests.delete(headers=self.headers, url=url)
+    def delete(self, services_id):
+        for device, service_id in services_id.items():
+            url = f'{self.url}/{service_id}'
+            requests.delete(headers=self.headers, url=url)
+
+    def get_info(self, service_id):
+        url = f'{self.url}/{service_id}'
+        response = requests.get(headers=self.headers, url=url)
 
         return response
 
@@ -58,14 +63,13 @@ class Movie:
 
         return response
 
-    def delete(self):
-        url = f'{self.url}'
-        response = requests.delete(headers=self.headers, url=url)
+    def delete(self, movies_id):
+        for movie_id in movies_id:
+            url = f'{self.url}/{movie_id}'
+            requests.delete(headers=self.headers, url=url)
 
-        return response
-
-    def get(self, movie_id):
+    def get_info(self, movie_id):
         url = f'{self.url}/{movie_id}'
         response = requests.get(headers=self.headers, url=url)
 
-        return response.text()
+        return response
