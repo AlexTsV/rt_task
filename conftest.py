@@ -1,5 +1,3 @@
-import time
-
 from faker import Faker
 import pytest
 import random
@@ -13,7 +11,7 @@ fake_genres = ['drama', 'comedy', 'melodrama']
 
 @pytest.fixture(scope="session")
 def services():
-    device_list = ["tv", "mobile", "stb", ["tv", "mobile", "stb"]]
+    device_list = random.choice(["tv", "mobile", "stb", ["tv", "mobile", "stb"]])
     services_id = {}
     for device in device_list:
         if type(device) is list:
@@ -23,7 +21,6 @@ def services():
         else:
             response = Service().create('subscription', f"{device}_subscription", random.randint(1, 10), device)
             services_id[device] = (response.json()["id"])
-        time.sleep(3)
 
     return services_id
 
@@ -41,15 +38,17 @@ def movies(services):
                                   service_id)
         if api.check_movie_creation(response.json()['id']) is not None:
             movies_id.append(response.json()["id"])
+        else:
+            raise AssertionError('Movies does not created')
 
     return movies_id
 
 
-# @pytest.fixture(scope="module", autouse=True)
-# def clean_test_data(movies, services):
-#     yield movies
-#     Movie().delete(movies)
-#     Service().delete(services)
+@pytest.fixture(scope="module", autouse=True)
+def clean_test_data(movies, services):
+    yield clean_test_data
+    Movie().delete(movies)
+    Service().delete(services)
 
 
 @pytest.fixture(scope="session")

@@ -94,9 +94,36 @@ def test_if_movie_meets_all_conditions_it_included_in_result(movies, services):
                             raise AssertionError(message)
 
 
-def test_film_meets_all_conditions_except_rental_dates_its_not_included_in_result():
-    pass
+def test_film_meets_all_conditions_except_rental_dates_its_not_included_in_result(movies, services):
+    token = api.get_token_for_device(random.choice(['tv', 'mobile', 'stb'])).json()['token']
+    user_movies = api.get_list_of_available_movies(token)
+    for movie in movies:
+        movie_info = Movie().get_info(movie)
+        if movie_info.json()['start_date'] >= time.time() >= movie_info.json()['end_date']:
+            for device, service_id in services.items():
+                if service_id in movie_info.json()['services']:
+                    for user_movie in user_movies.json()['items']:
+                        try:
+                            assert movie_info.json()['id'] != user_movie['id']
+                            log.info('PASSED')
+                        except AssertionError:
+                            message = 'movie meets all conditions does not included in result'
+                            log.info('FAILED')
+                            log.exception(message)
+                            raise AssertionError(message)
 
 
-def test_if_movie_meets_all_conditions_except_token_device_type():
-    pass
+@pytest.mark.xfail('This is test template')
+def test_if_movie_meets_all_conditions_except_token_device_type(movies, services):
+    device = random.choice(['tv', 'mobile', 'stb'])
+    token = api.get_token_for_device(device).json()['token']
+    movies = api.get_list_of_available_movies(token)
+    for movie in movies.json()['items']:
+        try:
+            assert device in movie['device_types']
+            log.info('PASSED')
+        except AssertionError:
+            message = 'movie is not available'
+            log.info('FAILED')
+            log.exception(message)
+            raise AssertionError(message)

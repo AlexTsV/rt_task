@@ -13,3 +13,420 @@ AssertionError: No available movies
 2020-02-16 17:13:34,653 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
 2020-02-16 17:13:34,946 - INFO - test_get_api_movies.py - test_movie_currently_available - 68 - PASSED
 2020-02-16 17:13:35,231 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 90 - PASSED
+2020-02-18 19:48:03,437 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:48:03,760 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:48:04,052 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:48:04,630 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-18 19:48:04,938 - INFO - test_get_api_movies.py - test_movie_currently_available - 65 - PASSED
+2020-02-18 19:48:05,235 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 84 - PASSED
+2020-02-18 19:48:39,526 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:48:39,826 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:48:40,121 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:48:40,697 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 49 - FAILED
+2020-02-18 19:48:40,697 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 50 - No available movies
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 45, in test_user_can_get_available_movies
+    raise AssertionError('No available movies')
+AssertionError: No available movies
+2020-02-18 19:49:11,938 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:49:12,247 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:49:12,538 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-18 19:49:13,134 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 49 - FAILED
+2020-02-18 19:49:13,134 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 50 - No available movies
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 45, in test_user_can_get_available_movies
+    raise AssertionError('No available movies')
+AssertionError: No available movies
+2020-02-18 20:33:21,446 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:33:21,740 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:33:22,032 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:33:22,908 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-18 20:34:09,284 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:34:09,565 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:34:09,855 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:34:10,718 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-18 20:34:11,009 - INFO - test_get_api_movies.py - test_movie_currently_available - 60 - PASSED
+2020-02-18 20:34:11,295 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 79 - PASSED
+2020-02-18 20:35:11,633 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:35:11,910 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:35:12,196 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:35:13,064 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-18 20:35:45,130 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:35:45,421 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:35:45,703 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:35:46,530 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-18 20:44:16,720 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:44:17,025 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:44:17,305 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:44:18,191 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-18 20:44:18,495 - INFO - test_get_api_movies.py - test_movie_currently_available - 60 - PASSED
+2020-02-18 20:44:18,844 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 79 - PASSED
+2020-02-18 20:44:53,732 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:44:54,017 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:44:54,311 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:44:55,217 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-18 20:45:32,975 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:45:33,261 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:45:33,539 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 23 - PASSED
+2020-02-18 20:45:34,433 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 46 - PASSED
+2020-02-18 21:55:34,121 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 21:55:34,407 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 21:55:34,687 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 21:55:35,552 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 22:04:21,786 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:04:22,069 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:04:22,354 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:04:23,218 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 22:04:23,511 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:04:23,511 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:04:23,806 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:04:23,806 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:06:36,480 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:06:36,772 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:06:37,077 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:06:37,955 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 22:06:38,236 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:06:38,236 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:06:38,528 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:06:38,529 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:07:57,226 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:07:57,508 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:07:57,808 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:07:58,661 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 22:07:58,967 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:07:59,253 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:09:30,209 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:09:30,506 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:09:30,807 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:09:31,698 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 22:09:31,990 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:09:31,990 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:09:31,990 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:09:32,288 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:09:32,288 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:09:32,289 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:12:20,182 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:12:20,462 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:12:20,748 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:12:21,575 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 22:12:21,859 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:12:21,859 - INFO - test_get_api_movies.py - test_movie_currently_available - 61 - PASSED
+2020-02-18 22:12:22,134 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:12:22,134 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 80 - PASSED
+2020-02-18 22:13:11,325 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:13:11,614 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:13:11,893 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 22:13:12,722 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:17:33,882 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:17:34,164 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:17:34,448 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:17:35,030 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:19:27,244 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:19:27,530 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:19:27,823 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:19:28,403 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:19:53,391 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:19:53,392 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=93 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582057193.3912673 <= 12233526
+ +  where 1582057193.3912673 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:19:53,726 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:19:54,003 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:19:54,288 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:19:54,564 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:22:58,332 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:22:58,622 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:22:58,915 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:22:59,504 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 43 - FAILED
+2020-02-18 23:22:59,504 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 44 - No available movies
+NoneType: None
+2020-02-18 23:23:26,552 - INFO - test_get_api_movies.py - test_movie_currently_available - 55 - PASSED
+2020-02-18 23:23:26,837 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:23:26,837 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=98 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582154598 <= 1582057406.837994
+ +  where 1582057406.837994 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:23:27,137 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:23:27,417 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:23:27,687 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:23:27,959 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:24:17,887 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:24:18,163 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:24:18,437 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:24:19,003 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:24:46,092 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:24:46,092 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=101 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582057486.092569 <= 1305967484
+ +  where 1582057486.092569 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:24:46,373 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:24:46,373 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=102 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582057486.372613 <= 311882727
+ +  where 1582057486.372613 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:24:46,657 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:24:46,657 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=103 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582057486.6578944 <= 1116113364
+ +  where 1582057486.6578944 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:24:46,936 - INFO - test_get_api_movies.py - test_movie_currently_available - 55 - PASSED
+2020-02-18 23:24:47,234 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 67 - PASSED
+2020-02-18 23:24:47,530 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 67 - PASSED
+2020-02-18 23:24:47,811 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 67 - PASSED
+2020-02-18 23:24:48,082 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 67 - PASSED
+2020-02-18 23:25:41,390 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:25:41,687 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:25:41,982 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:25:42,582 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:26:09,695 - INFO - test_get_api_movies.py - test_movie_currently_available - 55 - PASSED
+2020-02-18 23:26:09,967 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:26:09,967 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=106 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582154761 <= 1582057569.967678
+ +  where 1582057569.967678 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:26:10,249 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:26:10,249 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=107 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582057570.2494965 <= 1022615317
+ +  where 1582057570.2494965 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:26:10,541 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:26:10,541 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=108 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582154766 <= 1582057570.5405214
+ +  where 1582057570.5405214 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:26:10,831 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 67 - PASSED
+2020-02-18 23:26:11,104 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 67 - PASSED
+2020-02-18 23:26:11,385 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 67 - PASSED
+2020-02-18 23:26:11,661 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 67 - PASSED
+2020-02-18 23:26:41,006 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:26:41,293 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:26:41,571 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:26:42,149 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:27:08,811 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - FAiLED
+2020-02-18 23:27:08,813 - ERROR - test_get_api_movies.py - test_movie_currently_available - 59 - movie with id=109 should not be available
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 54, in test_movie_currently_available
+    assert movie_info.json()['start_date'] <= time.time() <= movie_info.json()['end_date']
+AssertionError: assert 1582057628.8119855 <= 1377912226
+ +  where 1582057628.8119855 = <built-in function time>()
+ +    where <built-in function time> = time.time
+2020-02-18 23:27:09,163 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:27:09,449 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:27:09,727 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:27:10,026 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:29:16,971 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:29:17,258 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:29:17,546 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:29:18,138 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:29:41,903 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:29:42,184 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:29:42,454 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:29:42,724 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 68 - PASSED
+2020-02-18 23:31:12,435 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:31:12,750 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:31:13,047 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:31:13,658 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:31:39,917 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:31:40,203 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:31:40,470 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:31:40,755 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:32:22,777 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:32:23,071 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:32:23,386 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:32:24,000 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:32:51,575 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:32:51,855 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:32:52,152 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:32:52,453 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:33:08,790 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:33:09,110 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:33:09,407 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:33:10,024 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:33:10,342 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:33:10,342 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:33:10,342 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:33:10,342 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:33:38,451 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:33:38,734 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:33:39,001 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:33:39,289 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:33:56,623 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:33:56,917 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:33:57,212 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:33:57,794 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:33:58,074 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:33:58,074 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:33:58,075 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:33:58,075 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:34:25,349 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:34:25,639 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:34:25,909 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:34:26,227 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:39:35,204 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:39:35,508 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:39:35,805 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:39:36,378 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:39:36,855 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:39:36,855 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:39:36,855 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:39:36,855 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:39:36,855 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:39:58,859 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:39:59,160 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:39:59,433 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:39:59,714 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:40:51,871 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:40:52,154 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:40:52,464 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 24 - PASSED
+2020-02-18 23:40:53,054 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 47 - PASSED
+2020-02-18 23:40:53,349 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:40:53,349 - INFO - test_get_api_movies.py - test_movie_currently_available - 56 - PASSED
+2020-02-18 23:41:21,953 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:41:22,219 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:41:22,517 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-18 23:41:22,787 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 69 - PASSED
+2020-02-19 12:20:07,038 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:20:07,334 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:20:07,615 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:20:08,170 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 44 - FAILED
+2020-02-19 12:20:08,170 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 45 - No available movies
+NoneType: None
+2020-02-19 12:20:34,337 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:20:34,621 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:20:34,913 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:20:35,175 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:20:36,026 - INFO - test_get_api_movies.py - test_if_movie_meets_all_conditions_it_included_in_result - 89 - PASSED
+2020-02-19 12:21:07,601 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:21:07,917 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:21:08,201 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:21:08,791 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 44 - FAILED
+2020-02-19 12:21:08,791 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 45 - No available movies
+NoneType: None
+2020-02-19 12:21:36,333 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:21:36,616 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:21:36,889 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:21:37,168 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:22:05,658 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:22:05,943 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:22:06,259 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:22:06,821 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 44 - FAILED
+2020-02-19 12:22:06,821 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 45 - No available movies
+NoneType: None
+2020-02-19 12:22:39,286 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:22:39,565 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:22:39,851 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:22:40,121 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:22:40,981 - INFO - test_get_api_movies.py - test_if_movie_meets_all_conditions_it_included_in_result - 89 - PASSED
+2020-02-19 12:22:41,528 - INFO - test_get_api_movies.py - test_if_movie_meets_all_conditions_it_included_in_result - 92 - FAILED
+2020-02-19 12:22:41,528 - ERROR - test_get_api_movies.py - test_if_movie_meets_all_conditions_it_included_in_result - 93 - movie meets all conditions does not included in result
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 88, in test_if_movie_meets_all_conditions_it_included_in_result
+    assert movie_info.json()['id'] == user_movie['id']
+AssertionError: assert 11 == 9
+2020-02-19 12:24:31,392 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:24:31,685 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:24:31,986 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:24:32,552 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 44 - FAILED
+2020-02-19 12:24:32,552 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 45 - No available movies
+NoneType: None
+2020-02-19 12:24:33,182 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:24:33,448 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:24:33,731 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:24:34,022 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:27:20,273 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:27:20,561 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:27:20,851 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:27:21,397 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 44 - FAILED
+2020-02-19 12:27:21,397 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 45 - No available movies
+NoneType: None
+2020-02-19 12:27:22,030 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:27:22,308 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:27:22,582 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:27:22,865 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:29:04,892 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:29:05,185 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:29:05,460 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:29:06,024 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 44 - FAILED
+2020-02-19 12:29:06,024 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 45 - No available movies
+NoneType: None
+2020-02-19 12:29:26,454 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:29:26,721 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:29:26,999 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:29:27,275 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:30:37,049 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:30:37,331 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:30:37,611 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:30:38,148 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 44 - FAILED
+2020-02-19 12:30:38,148 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 45 - No available movies
+NoneType: None
+2020-02-19 12:30:58,648 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:30:58,932 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:30:59,197 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:30:59,461 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:31:31,436 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:31:31,725 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:31:32,019 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:31:32,590 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 44 - FAILED
+2020-02-19 12:31:32,590 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 45 - No available movies
+NoneType: None
+2020-02-19 12:31:55,670 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:31:55,949 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:31:56,221 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:31:56,485 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:32:22,320 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:32:22,602 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:32:22,887 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:32:23,451 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 45 - FAILED
+2020-02-19 12:32:23,452 - ERROR - test_get_api_movies.py - test_user_can_get_available_movies - 46 - No available movies
+NoneType: None
+2020-02-19 12:32:45,454 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 71 - PASSED
+2020-02-19 12:32:45,749 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 71 - PASSED
+2020-02-19 12:32:46,015 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 71 - PASSED
+2020-02-19 12:32:46,308 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 71 - PASSED
+2020-02-19 12:32:47,147 - INFO - test_get_api_movies.py - test_if_movie_meets_all_conditions_it_included_in_result - 90 - PASSED
+2020-02-19 12:32:47,415 - INFO - test_get_api_movies.py - test_if_movie_meets_all_conditions_it_included_in_result - 93 - FAILED
+2020-02-19 12:32:47,415 - ERROR - test_get_api_movies.py - test_if_movie_meets_all_conditions_it_included_in_result - 94 - movie meets all conditions does not included in result
+Traceback (most recent call last):
+  File "C:\Users\samby\PycharmProjects\rt_task\test_get_api_movies.py", line 89, in test_if_movie_meets_all_conditions_it_included_in_result
+    assert movie_info.json()['id'] == user_movie['id']
+AssertionError: assert 34 == 33
+2020-02-19 12:36:07,278 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:36:07,561 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:36:07,856 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:36:08,432 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 49 - PASSED
+2020-02-19 12:36:08,719 - INFO - test_get_api_movies.py - test_movie_currently_available - 58 - PASSED
+2020-02-19 12:36:30,196 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 71 - PASSED
+2020-02-19 12:36:30,466 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 71 - PASSED
+2020-02-19 12:36:30,738 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 71 - PASSED
+2020-02-19 12:36:31,012 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 71 - PASSED
+2020-02-19 12:46:24,655 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:46:24,942 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:46:25,243 - INFO - test_get_api_movies.py - test_user_can_get_token_for_device - 25 - PASSED
+2020-02-19 12:46:25,793 - INFO - test_get_api_movies.py - test_user_can_get_available_movies - 48 - PASSED
+2020-02-19 12:46:26,099 - INFO - test_get_api_movies.py - test_movie_currently_available - 57 - PASSED
+2020-02-19 12:46:26,380 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
+2020-02-19 12:46:27,652 - INFO - test_get_api_movies.py - test_is_movie_included_in_the_services - 70 - PASSED
